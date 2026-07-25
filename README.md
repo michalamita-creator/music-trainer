@@ -9,3 +9,8 @@ A premium web application scaffold for music education, built with React, Vite, 
 - `npm run build`
 - `npm run preview`
 - `npm run lint`
+
+## Deployment
+
+This app is configured for GitHub Pages deployment at:
+`https://michalamita-creator.github.io/music-trainer`

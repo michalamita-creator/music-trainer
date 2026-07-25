@@ -2,6 +2,7 @@
   "name": "music-trainer",
   "private": true,
   "version": "0.0.1",
+  "homepage": "https://michalamita-creator.github.io/music-trainer",
   "type": "module",
   "scripts": {
     "dev": "vite",
