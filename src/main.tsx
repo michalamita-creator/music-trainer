@@ -5,6 +5,10 @@ import App from './App'
 import { ThemeProvider } from './contexts/ThemeContext'
 import './styles.css'
 
+if (typeof window !== 'undefined' && !window.location.hash) {
+  window.location.hash = '#/'
+}
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider>

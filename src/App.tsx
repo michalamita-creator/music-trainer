@@ -1,4 +1,4 @@
-import { useLocation, Routes, Route, NavLink } from 'react-router-dom'
+import { useLocation, Routes, Route, NavLink, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Guitar from './pages/Guitar'
 import Theory from './pages/Theory'
@@ -28,6 +28,7 @@ function App() {
             <Route path="/ear-training" element={<EarTraining />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </div>
       </main>
